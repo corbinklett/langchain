@@ -823,12 +823,15 @@ class SentenceTransformersTokenTextSplitter(TextSplitter):
 class Language(str, Enum):
     """Enum of the programming languages."""
 
+    C = "c"
     CPP = "cpp"
     GO = "go"
     JAVA = "java"
     KOTLIN = "kotlin"
     JS = "js"
     TS = "ts"
+    LUA = "lua"
+    PERL = "perl"
     PHP = "php"
     PROTO = "proto"
     PYTHON = "python"
